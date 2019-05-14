@@ -12,7 +12,7 @@
     "contents": [
       {
         "type": "text",
-        "text": "{{ data.goal_status }}",
+        "text": "3 PM",
         "weight": "bold",
         "color": "{{ data.goal_color }}",
         "size": "sm"
@@ -96,7 +96,7 @@
             "contents": [
               {
                 "type": "text",
-                "text": "> Sales",
+                "text": "> Current Sales",
                 "weight": "bold",
                 "size": "md",
                 "margin": "sm",
@@ -105,7 +105,7 @@
               },
               {
                 "type": "text",
-                "text": "{{ data.saless }}",
+                "text": "{{ data.sanji }}",
                 "size": "md",
                 "margin": "sm",
                 "weight": "bold",
@@ -159,7 +159,7 @@
               },
               {
                 "type": "text",
-                "text": "{{ data.rokuji }}",
+                "text": "TBA",
                 "size": "sm",
                 "color": "#111111",
                 "align": "end"
@@ -179,152 +179,7 @@
               },
               {
                 "type": "text",
-                "text": "{{ data.kuji }}",
-                "size": "sm",
-                "color": "#111111",
-                "align": "end"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "type": "separator",
-        "margin": "xxl"
-      },
-      {
-        "type": "box",
-        "layout": "vertical",
-        "margin": "xxl",
-        "spacing": "sm",
-        "contents": [
-          {
-            "type": "box",
-            "layout": "horizontal",
-            "contents": [
-              {
-                "type": "text",
-                "text": "Change from last year",
-                "weight": "bold",
-                "size": "sm",
-                "color": "#555555",
-                "flex": 0
-              },
-              {
-                "type": "text",
-                "text": "{{ data.changes }}",
-                "size": "sm",
-                "color": "#111111",
-                "align": "end"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "type": "separator",
-        "margin": "xxl"
-      },
-      {
-        "type": "box",
-        "layout": "vertical",
-        "margin": "xxl",
-        "spacing": "sm",
-        "contents": [
-          {
-            "type": "box",
-            "layout": "horizontal",
-            "contents": [
-              {
-                "type": "text",
-                "text": "Monthly Goal",
-                "weight": "bold",
-                "size": "sm",
-                "color": "#aaaaaa",
-                "flex": 0
-              },
-              {
-                "type": "text",
-                "text": "{{ data.monthly_goal }}",
-                "weight": "bold",
-                "size": "sm",
-                "color": "#aaaaaa",
-                "align": "end"
-              }
-            ]
-          },
-          {
-            "type": "box",
-            "layout": "horizontal",
-            "contents": [
-              {
-                "type": "text",
-                "text": "Current Monthly Sales",
-              
-                "size": "sm",
-                "color": "#555555",
-                "flex": 0
-              },
-              {
-                "type": "text",
-                "text": "{{ data.currents }}",
-                "weight": "bold",
-                "size": "sm",
-                "color": "#111111",
-                "align": "end"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "type": "separator",
-        "margin": "xxl"
-      },
-      {
-        "type": "box",
-        "layout": "vertical",
-        "margin": "xxl",
-        "spacing": "sm",
-        "contents": [
-          {
-            "type": "box",
-            "layout": "horizontal",
-            "contents": [
-              {
-                "type": "text",
-                "text": "Amount Left",
-               
-                "size": "sm",
-                "color": "#111111",
-                "flex": 0
-              },
-              {
-                "type": "text",
-                "text": "{{ data.lefts }}",
-                "weight": "bold",
-                "size": "sm",
-                "color": "#111111",
-                "align": "end"
-              }
-            ]
-          },
-          {
-            "type": "box",
-            "layout": "horizontal",
-            "contents": [
-              {
-                "type": "text",
-                "text": "Progress",
-              
-                "size": "sm",
-                "color": "#555555",
-                "flex": 0
-              },
-              {
-                "type": "text",
-                "text": "{{ data.progress }}",
-                "weight": "bold",
+                "text": "TBA",
                 "size": "sm",
                 "color": "#111111",
                 "align": "end"
